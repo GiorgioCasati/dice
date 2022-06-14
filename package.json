@@ -1,0 +1,28 @@
+{
+  "name": "dice",
+  "version": "1.0.1",
+  "description": "",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiorgioCasati/dice.git"
+  },
+  "author": "Giorgio Casati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GiorgioCasati/dice/issues"
+  },
+  "homepage": "https://github.com/GiorgioCasati/dice#readme",
+  "prettier": "@giorgio-casati/prettier-config",
+  "devDependencies": {
+    "@giorgio-casati/prettier-config": "^1.0.0",
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "2.6.2",
+    "typescript": "^4.7.3"
+  }
+}
